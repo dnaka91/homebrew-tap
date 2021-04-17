@@ -2,8 +2,8 @@ class Timetracking < Formula
   desc "Simple command-line time tracking application"
   homepage "https://github.com/hardliner66/timetracking"
   url "https://github.com/hardliner66/timetracking.git",
-      tag:      "v1.5.4",
-      revision: "e5c9cb2c888b248e3a90325c2d43120dc3fe4fa9"
+      tag:      "v1.5.13",
+      revision: "bc96f5a05d03e4028ef6594a90b5e1fe02b3c483"
   license "Apache-2.0"
   head "https://github.com/hardliner66/timetracking.git"
 
