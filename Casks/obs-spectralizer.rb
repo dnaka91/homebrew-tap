@@ -7,6 +7,8 @@ cask "obs-spectralizer" do
   desc "Audio visualizer plugin for obs-studio"
   homepage "https://github.com/univrsal/spectralizer"
 
+  depends_on formula: "fftw"
+
   pkg "spectralizer.v#{version}.macos.pkg"
 
   uninstall pkgutil: "cf.vrsal.spectralizer"

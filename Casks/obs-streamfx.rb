@@ -7,6 +7,8 @@ cask "obs-streamfx" do
   desc "Adds many new effects, filters, sources, transitions and encoders to OBS Studio"
   homepage "https://github.com/Xaymar/obs-StreamFX"
 
+  depends_on macos: ">= :catalina"
+
   pkg "StreamFX-MacOS-Installer.pkg"
 
   uninstall pkgutil: "com.xaymar.StreamFX"
