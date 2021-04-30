@@ -2,8 +2,8 @@ class Wonky < Formula
   desc "Terminal monitor with a mascot"
   homepage "https://github.com/the-gorg/wonky"
   url "https://github.com/the-gorg/wonky.git",
-      revision: "8afa6b3bd535c61650b439fb64144d1e77019c07"
-  version "0.1.0"
+      revision: "4895ebfcdfa2d5d06bd90f9336f785a73fc105b5"
+  version "1.0.0"
   license "MIT"
   head "https://github.com/the-gorg/wonky.git"
 
