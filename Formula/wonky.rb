@@ -8,9 +8,9 @@ class Wonky < Formula
   head "https://github.com/the-gorg/wonky.git"
 
   bottle do
-    root_url "https://github.com/dnaka91/homebrew-tap/releases/download/wonky-0.1.0"
-    sha256 cellar: :any_skip_relocation, catalina:     "bc2b2af008362238a23ae001eda24423fea0ec81da2e45119c46f415e4a64586"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "bb8391e5be48f5f7b70f2ea370cd6498a0a2d096633fdf9652f42442fa82a07f"
+    root_url "https://github.com/dnaka91/homebrew-tap/releases/download/wonky-1.0.0"
+    sha256 cellar: :any_skip_relocation, catalina:     "6cdf5979bb0123e191ff7f109eefc1b88d0a0453f3eb11d9e47026c7c55dcc7f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "258fdbcb2d93b68c932e1cc319d74e594a320f676a05b992612ce5d2cf367922"
   end
 
   depends_on "rust" => :build
