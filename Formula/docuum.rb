@@ -7,6 +7,12 @@ class Docuum < Formula
   license "MIT"
   head "https://github.com/stepchowfun/docuum.git"
 
+  bottle do
+    root_url "https://github.com/dnaka91/homebrew-tap/releases/download/docuum-0.16.1"
+    sha256 cellar: :any_skip_relocation, catalina:     "a34b2af7350c6aaa5fa76daa88eb2b875c1bff2ad9de9e40aa9294e1a930cf31"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "3a69c15cca82d6ddba5037eef4eb8892ea0102f159b967b882897483aa80a03c"
+  end
+
   depends_on "rust" => :build
 
   def install
