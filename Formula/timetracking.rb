@@ -8,9 +8,9 @@ class Timetracking < Formula
   head "https://github.com/hardliner66/timetracking.git"
 
   bottle do
-    root_url "https://github.com/dnaka91/homebrew-tap/releases/download/timetracking-1.5.13"
-    sha256 cellar: :any_skip_relocation, catalina:     "735719b5018b42704910c99de8b194fe2992ee0e1c84a607b5e5273f7ac058f5"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "50a3aa9684ebc48d2fcf6f6bb9f1b18ef1203535710c7874cab24a2a5257158a"
+    root_url "https://github.com/dnaka91/homebrew-tap/releases/download/timetracking-1.5.20"
+    sha256 cellar: :any_skip_relocation, catalina:     "93724d0c5b16e356857d873878ceafc199d8dd36f42aa463e4dfc1f11f879f21"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "83b2cb056e4fec5d0c228375c2ea7db84aa000b23c66bb5e4106db7069c187fc"
   end
 
   depends_on "rust" => :build
