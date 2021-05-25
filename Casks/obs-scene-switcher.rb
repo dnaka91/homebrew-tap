@@ -1,6 +1,6 @@
 cask "obs-scene-switcher" do
-  version "1.11.2"
-  sha256 "2a3428ca7bd032705c80a2e4fadaeefaac4a0a5d75ade2a66bf64999b3fcc38b"
+  version "1.12"
+  sha256 "32a97a57d487b593b2c138dc3491434135e23d65657b7dc3bc568bdac06d2256"
 
   url "https://github.com/WarmUpTill/SceneSwitcher/releases/download/#{version}/SceneSwitcher.zip"
   name "obs-scene-switcher"
