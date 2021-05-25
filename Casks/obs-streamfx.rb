@@ -1,6 +1,6 @@
 cask "obs-streamfx" do
-  version "0.10.0b3"
-  sha256 "406dbea5803b86c84bc158158e83a13e82d312d11635cf54e42469fb6715bc8a"
+  version "0.10.0"
+  sha256 "7dfca8b76fe6ee9aa21bd251903f848cf9bc3af9219470786a7de6b64375f955"
 
   url "https://github.com/Xaymar/obs-StreamFX/releases/download/#{version}/StreamFX-MacOS-Installer.pkg"
   name "obs-streamfx"
